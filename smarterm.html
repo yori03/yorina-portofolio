@@ -1,0 +1,543 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title id="pageTitle">SmartERM | Yorina's Project Case Study</title>
+
+    <meta
+        id="metaDescription"
+        name="description"
+        content="A case study of SmartERM, a web-based clinical anamnesis recording prototype developed as an academic final project."
+    >
+
+    <link rel="stylesheet" href="css/smarterm.css">
+</head>
+
+<body>
+
+    <!-- NAVIGATION -->
+    <header class="detail-navbar">
+
+        <a href="index.html" class="detail-logo">
+            YORINA<span>.</span>
+        </a>
+
+        <nav>
+            <a href="index.html#projects" data-i18n="backPortfolio">
+                ← Back to Portfolio
+            </a>
+
+            <a href="index.html#contact" data-i18n="contact">
+                Contact
+            </a>
+
+            <div class="language-switcher" role="group" aria-label="Language selection">
+                <button type="button" class="language-option" data-lang="en" aria-pressed="true">
+                    EN
+                </button>
+                <button type="button" class="language-option" data-lang="id" aria-pressed="false">
+                    IN
+                </button>
+            </div>
+        </nav>
+
+    </header>
+
+
+    <main>
+
+        <!-- 01. PROJECT HERO -->
+        <section class="detail-hero">
+
+            <div class="detail-hero-container">
+
+                <div class="detail-hero-content">
+
+                    <p class="detail-eyebrow" data-i18n="heroEyebrow">
+                        ACADEMIC FINAL PROJECT · 2026
+                    </p>
+
+                    <h1>
+                        Smart<span>ERM.</span>
+                    </h1>
+
+                    <h2 class="detail-subtitle" data-i18n="heroSubtitle">
+                        AI-Assisted Anamnesis Documentation
+                    </h2>
+
+                    <p class="detail-description" data-i18n="heroDescription">
+                        A web-based prototype that transforms doctor-patient conversations into structured anamnesis records using speech recognition and large language models.
+                    </p>
+
+                    <div class="detail-tags">
+                        <span>Information Extraction</span>
+                        <span>FastAPI</span>
+                        <span>Whisper</span>
+                        <span>Llama 3</span>
+                        <span>MySQL</span>
+                    </div>
+
+                    <div class="detail-hero-actions">
+
+                        <a
+                            href="https://drive.google.com/file/d/1baWROuingMAfq9H8KDO1W7XXxbs0iPYF/view?usp=sharing"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            class="demo-button"
+                            data-i18n="watchDemo"
+                        >
+                            ▶ Watch Web Demo
+                        </a>
+
+                        <a
+                            href="https://drive.google.com/file/d/1D10zBr009bBvPgcEstsYx6YCoxd0ygcS/view?usp=sharing"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            class="outline-button"
+                            data-i18n="viewReport"
+                        >
+                            📄 View Project Report
+                        </a>
+
+                    </div>
+
+                </div>
+
+
+                <!-- APPLICATION PREVIEW -->
+                <div class="detail-preview">
+
+                    <div class="detail-preview-header">
+
+                        <div class="detail-preview-title" data-i18n="systemPreview">
+                            SYSTEM PREVIEW
+                        </div>
+
+                        <div class="detail-preview-status">
+                            PROTOTYPE
+                        </div>
+
+                    </div>
+
+                    <img
+                        src="assets/images/smarterm-01.jpg"
+                        alt="SmartERM web application interface"
+                        class="detail-preview-image"
+                    >
+
+                    <div class="detail-preview-caption">
+                        <span><strong>SmartERM</strong> · Web Application</span>
+                        <span data-i18n="healthcareTechnology">Healthcare Technology</span>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- 02. PROJECT OVERVIEW -->
+        <section class="detail-section">
+
+            <div class="detail-label" data-i18n="overviewLabel">
+                01 — PROJECT OVERVIEW
+            </div>
+
+            <div class="detail-grid">
+
+                <div>
+                    <h2>
+                        <span data-i18n="overviewHeading1">Understanding the problem</span>
+                        <span data-i18n="overviewHeading2">before building the solution.</span>
+                    </h2>
+                </div>
+
+                <div class="detail-copy">
+
+                    <p data-i18n="overviewP1">
+                        SmartERM is an academic prototype designed to support the recording of patient anamnesis information in a web-based environment.
+                    </p>
+
+                    <p data-i18n="overviewP2">
+                        The prototype explores the use of speech recognition and large language models to transform spoken information into structured documentation fields.
+                    </p>
+
+                    <p data-i18n="overviewP3">
+                        The project was developed with reference to the clinical documentation workflow at RSIA Al-Hasanah, Madiun, particularly in the Obgyn context.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- 03. PROJECT BACKGROUND -->
+        <section class="detail-section detail-dark">
+
+            <div class="detail-label" data-i18n="backgroundLabel">
+                02 — PROJECT BACKGROUND
+            </div>
+
+            <h2>
+                <span data-i18n="backgroundHeading1">The challenge behind</span>
+                <span data-i18n="backgroundHeading2">the prototype.</span>
+            </h2>
+
+            <div class="detail-copy">
+
+                <p data-i18n="backgroundP1">
+                    Clinical anamnesis involves collecting and documenting information about a patient's condition and medical history.
+                </p>
+
+                <p data-i18n="backgroundP2">
+                    This project explored how speech-to-text technology and language models could assist the process of organizing spoken information into structured anamnesis fields.
+                </p>
+
+            </div>
+
+        </section>
+
+
+        <!-- 04. PROPOSED SOLUTION -->
+        <section class="detail-section">
+
+            <div class="detail-label" data-i18n="solutionLabel">
+                03 — PROPOSED SOLUTION
+            </div>
+
+            <h2>
+                <span data-i18n="solutionHeading1">From spoken information</span>
+                <span data-i18n="solutionHeading2">to structured data.</span>
+            </h2>
+
+            <div class="workflow">
+
+                <article class="workflow-card">
+                    <span>01</span>
+                    <h3 data-i18n="workflow1Title">Audio Input</h3>
+                    <p data-i18n="workflow1Desc">
+                        Audio is recorded through the web interface using the browser's MediaRecorder API.
+                    </p>
+                </article>
+
+                <article class="workflow-card">
+                    <span>02</span>
+                    <h3 data-i18n="workflow2Title">Speech Recognition</h3>
+                    <p data-i18n="workflow2Desc">
+                        Whisper processes recorded audio and generates a text transcription.
+                    </p>
+                </article>
+
+                <article class="workflow-card">
+                    <span>03</span>
+                    <h3 data-i18n="workflow3Title">Information Extraction</h3>
+                    <p data-i18n="workflow3Desc">
+                        Llama 3 processes the transcription into structured JSON fields.
+                    </p>
+                </article>
+
+                <article class="workflow-card">
+                    <span>04</span>
+                    <h3 data-i18n="workflow4Title">Web Application</h3>
+                    <p data-i18n="workflow4Desc">
+                        Extracted information is handled by the application for review and documentation.
+                    </p>
+                </article>
+
+            </div>
+
+        </section>
+
+
+        <!-- 05. MY ROLE & CONTRIBUTION -->
+        <section class="detail-section detail-cream">
+
+            <div class="detail-label" data-i18n="roleLabel">
+                04 — MY ROLE & CONTRIBUTION
+            </div>
+
+            <h2>
+                <span data-i18n="roleHeading1">Connecting user needs</span>
+                <span data-i18n="roleHeading2">with technology.</span>
+            </h2>
+
+            <div class="detail-copy">
+
+                <p data-i18n="roleIntro">
+                    I worked on the project from requirements exploration through prototype development and evaluation.
+                </p>
+
+            </div>
+
+            <div class="role-grid">
+
+                <article>
+                    <span>01</span>
+                    <h3 data-i18n="role1Title">Requirements Exploration</h3>
+                    <p data-i18n="role1Desc">
+                        Conducted user interviews and explored documentation needs in the project context.
+                    </p>
+                </article>
+
+                <article>
+                    <span>02</span>
+                    <h3 data-i18n="role2Title">Technology Research</h3>
+                    <p data-i18n="role2Desc">
+                        Reviewed technical references and researched suitable technologies for the prototype.
+                    </p>
+                </article>
+
+                <article>
+                    <span>03</span>
+                    <h3 data-i18n="role3Title">Prototype Development</h3>
+                    <p data-i18n="role3Desc">
+                        Worked on the web prototype and its integration with speech recognition and language model services.
+                    </p>
+                </article>
+
+                <article>
+                    <span>04</span>
+                    <h3 data-i18n="role4Title">Testing & Documentation</h3>
+                    <p data-i18n="role4Desc">
+                        Participated in prototype validation, revisions, technical documentation, and project presentation.
+                    </p>
+                </article>
+
+            </div>
+
+        </section>
+
+
+        <!-- 06. TECHNOLOGY STACK -->
+        <section class="detail-section">
+
+            <div class="detail-label" data-i18n="technologyLabel">
+                05 — TECHNOLOGY STACK
+            </div>
+
+            <h2>
+                <span data-i18n="technologyHeading1">Technology behind</span>
+                <span data-i18n="technologyHeading2">the prototype.</span>
+            </h2>
+
+            <div class="technology-list">
+
+                <div>
+                    <strong>Frontend</strong>
+                    <span>HTML, CSS, JavaScript, MediaRecorder API</span>
+                </div>
+
+                <div>
+                    <strong>Backend</strong>
+                    <span>Python, FastAPI, SQLAlchemy</span>
+                </div>
+
+                <div>
+                    <strong>Database</strong>
+                    <span>MySQL</span>
+                </div>
+
+                <div>
+                    <strong>AI Services</strong>
+                    <span data-i18n="aiServices">Whisper and Llama 3 through Groq</span>
+                </div>
+
+                <div>
+                    <strong>Authentication</strong>
+                    <span>JWT and bcrypt</span>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- 07. TESTING & EVALUATION -->
+        <section class="detail-section detail-dark">
+
+            <div class="detail-label" data-i18n="evaluationLabel">
+                06 — TESTING & EVALUATION
+            </div>
+
+            <h2>
+                <span data-i18n="evaluationHeading1">Evaluating the</span>
+                <span data-i18n="evaluationHeading2">prototype.</span>
+            </h2>
+
+            <div class="result-grid">
+
+                <article>
+                    <strong>2.03%</strong>
+                    <h3>Whisper WER</h3>
+                    <p data-i18n="result1Desc">
+                        Word Error Rate recorded in the speech recognition evaluation.
+                    </p>
+                </article>
+
+                <article>
+                    <strong>75%</strong>
+                    <h3 data-i18n="result2Title">Sufficient Validation</h3>
+                    <p data-i18n="result2Desc">
+                        Portion of validation results categorized as sufficient.
+                    </p>
+                </article>
+
+                <article>
+                    <strong>25%</strong>
+                    <h3 data-i18n="result3Title">Revision Required</h3>
+                    <p data-i18n="result3Desc">
+                        Portion of validation results requiring further revision.
+                    </p>
+                </article>
+
+            </div>
+
+            <p class="result-note" data-i18n="resultNote">
+                These figures represent the evaluation results recorded during the academic project. They do not establish clinical effectiveness or production readiness.
+            </p>
+
+        </section>
+
+
+        <!-- 08. PROJECT SCOPE -->
+        <section class="detail-section">
+
+            <div class="detail-label" data-i18n="scopeLabel">
+                07 — PROJECT SCOPE
+            </div>
+
+            <h2>
+                <span data-i18n="scopeHeading1">What this project</span>
+                <span data-i18n="scopeHeading2">does and does not cover.</span>
+            </h2>
+
+            <div class="detail-copy">
+
+                <p data-i18n="scopeP1">
+                    SmartERM was developed as an academic prototype. It was not deployed as a production hospital system.
+                </p>
+
+                <p data-i18n="scopeP2">
+                    The prototype does not provide clinical decision support and does not integrate with SIMRS, BPJS, or SATUSEHAT.
+                </p>
+
+            </div>
+
+        </section>
+
+
+        <!-- 09. PROJECT DOCUMENTATION -->
+        <section
+            class="detail-section detail-cream"
+            id="project-documentation"
+        >
+
+            <div class="detail-label" data-i18n="documentationLabel">
+                08 — PROJECT DOCUMENTATION
+            </div>
+
+            <h2>
+                <span data-i18n="documentationHeading1">A closer look at</span>
+                <span data-i18n="documentationHeading2">the project.</span>
+            </h2>
+
+            <div class="project-gallery">
+
+                <img
+                    src="assets/images/smarterm-01.jpg"
+                    alt="SmartERM application screenshot 1"
+                    loading="lazy"
+                >
+
+                <img
+                    src="assets/images/smarterm-02.jpg"
+                    alt="SmartERM application screenshot 2"
+                    loading="lazy"
+                >
+
+                <img
+                    src="assets/images/smarterm-03.jpg"
+                    alt="SmartERM application screenshot 3"
+                    loading="lazy"
+                >
+
+            </div>
+
+            <div class="documentation-actions">
+
+                <a
+                    href="https://drive.google.com/file/d/1baWROuingMAfq9H8KDO1W7XXxbs0iPYF/view?usp=sharing"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="demo-button"
+                    data-i18n="demoSmartERM"
+                >
+                    ▶ Demo Web SmartERM
+                </a>
+
+                <a
+                    href="https://drive.google.com/file/d/1D10zBr009bBvPgcEstsYx6YCoxd0ygcS/view?usp=sharing"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="report-button"
+                    data-i18n="readReport"
+                >
+                    📄 Read Project Report
+                </a>
+
+            </div>
+
+        </section>
+
+
+        <!-- CONTACT -->
+        <section class="detail-contact" id="contact">
+
+            <p class="detail-eyebrow" data-i18n="thankYou">
+                THANK YOU FOR EXPLORING
+            </p>
+
+            <h2>
+                <span data-i18n="contactHeading1">Interested in my</span>
+                <span data-i18n="contactHeading2">work?</span>
+            </h2>
+
+            <p data-i18n="contactDescription">
+                Feel free to explore more of my projects or get in touch to discuss ideas and opportunities.
+            </p>
+
+            <a href="index.html#contact" data-i18n="getInTouch">
+                Get in touch ↗
+            </a>
+
+        </section>
+
+    </main>
+
+
+    <!-- FOOTER -->
+    <footer class="detail-footer">
+
+        <p data-i18n="copyright">
+            © 2026 Yorina. All rights reserved.
+        </p>
+
+        <a href="index.html" data-i18n="backPortfolio">
+            ← Back to Portfolio
+        </a>
+
+    </footer>
+
+
+    <!-- LANGUAGE SCRIPT -->
+    <script src="js/smarterm-language.js"></script>
+
+</body>
+</html>
